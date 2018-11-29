@@ -19,8 +19,10 @@ PRODUCT_COPY_FILES += \
 endif
 
 # AoC debug support
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 PRODUCT_PACKAGES_DEBUG += \
 	aocdump \
 	aocutil \
 	aoc_audio_cfg \
 	vp_util
+endif

@@ -80,6 +80,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     init.svc_debug.no_fatal.zygote=true \
     persist.device_config.configuration.disable_rescue_party=true
 
+ifneq (,$(filter eng, $(TARGET_BUILD_VARIANT)))
 # PixelLogger for RF testing
 PRODUCT_PACKAGES_DEBUG += \
     PixelLogger \
+endif
