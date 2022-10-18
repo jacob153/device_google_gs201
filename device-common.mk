@@ -48,6 +48,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # ZramWriteback
 -include hardware/google/pixel/mm/device_gki.mk
 
+# ConnectivityThermalPowermanager
+include hardware/google/pixel/connectivity_thermal_power_manager/connectivity_thermal_power_manager.mk
+
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
