@@ -77,6 +77,11 @@
         <fqname>@1.2::ISecureElement/SIM2</fqname>
     </hal>
     <hal format="aidl">
+        <name>android.hardware.security.keymint</name>
+        <version>2</version>
+        <fqname>IRemotelyProvisionedComponent/strongbox</fqname>
+    </hal>
+    <hal format="aidl">
         <name>com.google.input</name>
         <interface>
             <name>ITouchContextService</name>
