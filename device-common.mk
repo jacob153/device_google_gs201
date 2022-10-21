@@ -60,3 +60,8 @@ PRODUCT_COPY_FILES += \
   
 # Properties
 TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
+
+# Manifests
+DEVICE_MANIFEST_FILE += \
+    device/google/gs201/android.hardware.security.rkp-service.citadel.xml \
+    device/google/gs201/manifest_radio_ds.xml
