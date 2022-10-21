@@ -68,3 +68,8 @@ TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
+# Manifests
+DEVICE_MANIFEST_FILE += \
+    device/google/gs201/android.hardware.security.rkp-service.citadel.xml \
+    device/google/gs201/manifest_radio_ds.xml
