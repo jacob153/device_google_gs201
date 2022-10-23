@@ -47,3 +47,5 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # ZramWriteback
 -include hardware/google/pixel/mm/device_gki.mk
+
+TARGET_SYSTEM_PROP := device/google/gs201/system.prop
