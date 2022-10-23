@@ -60,6 +60,7 @@ PRODUCT_COPY_FILES += \
   
 # Properties
 TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
+TARGET_SYSTEM_PROP := device/google/gs201/system.prop
 
 # Manifests
 DEVICE_MANIFEST_FILE += \
