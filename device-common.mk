@@ -56,3 +56,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
+    
+# Properties
+TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
