@@ -62,3 +62,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     
 # Properties
 TARGET_VENDOR_PROP := device/google/gs201/vendor.prop
+
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
