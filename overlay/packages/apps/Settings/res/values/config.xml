@@ -55,4 +55,16 @@
         <item>2</item>
         <item>3</item>
     </integer-array>
+
+    <!-- From TrafficLightFaceOverlay -->
+    <integer-array name="face_enroll_primary_buckets">
+        <item>2</item>
+        <item>7</item>
+        <item>12</item>
+        <item>17</item>
+    </integer-array>
+    <bool name="config_face_education_use_lottie">true</bool>
+    <bool name="config_face_enroll_use_traffic_light">true</bool>
+    <bool name="config_face_intro_show_less_secure">true</bool>
+    <bool name="config_face_intro_show_require_eyes">false</bool>
 </resources>
