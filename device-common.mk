@@ -50,6 +50,9 @@ include hardware/google/pixel/connectivity_thermal_power_manager/connectivity_th
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+
+# Touch
+include hardware/google/pixel/touch/device.mk
     
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
@@ -78,6 +81,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.service=com.google.android.apps.camera.services.extensions.service.PixelExtensions
     
 # Manifests
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/gs201/lineage_device_framework_matrix.xml
+
 DEVICE_MANIFEST_FILE += \
     device/google/gs201/android.hardware.security.rkp-service.citadel.xml \
     device/google/gs201/manifest_radio_ds.xml
