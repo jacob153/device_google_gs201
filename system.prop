@@ -38,6 +38,3 @@ persist.vendor.radio.5g_mode_pref_0=1
 persist.vendor.radio.5g_mode_pref_1=1
 
 persist.sys.strictmode.disable=true
-
-# Misc
-#ro.debuggable=0
