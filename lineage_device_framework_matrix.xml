@@ -14,6 +14,7 @@
         </interface>
     </hal>
     <!-- Touch -->
+    <hal format="hidl" optional="true">
         <name>vendor.lineage.touch</name>
         <version>1.0</version>
         <interface>
