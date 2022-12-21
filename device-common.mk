@@ -66,3 +66,11 @@ TARGET_SYSTEM_PROP := device/google/gs201/system.prop
 DEVICE_MANIFEST_FILE += \
     device/google/gs201/android.hardware.security.rkp-service.citadel.xml \
     device/google/gs201/manifest_radio_ds.xml
+    
+# Touch
+include hardware/google/pixel/touch/device.mk
+
+# PowerShare
+include hardware/google/pixel/powershare/device.mk
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += device/google/gs201/lineage_device_framework_matrix.xml
