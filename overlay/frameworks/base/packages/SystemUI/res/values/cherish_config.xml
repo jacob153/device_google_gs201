@@ -36,5 +36,5 @@
     <color name="config_udfpsColor">#ffffffff</color>
 
     <!-- Udfps HBM provider class name -->
-    <string name="config_udfpsHbmProviderComponent">com.android.systemui.biometrics.PixelUdfpsDisplayModeProvider</string>
+    <string name="config_udfpsHbmProviderComponent">com.android.systemui.biometrics.PixelUdfpsHbmProvider</string>
 </resources>
